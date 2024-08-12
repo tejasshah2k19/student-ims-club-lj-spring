@@ -1,0 +1,54 @@
+create table products (
+	productId int primary key auto_increment,
+	productName varchar(30),
+	price int, 
+	qty int, 
+	category varchar(30),
+);
+
+controller ->url ->newproduct->jsp ->read -> db save 
+--------------------------------------------------------------------------
+ 
+ 
+ Getmapping 
+ newproduct -> jsp -> product form 
+ submit 
+ Postmapping 
+ saveproduct -> db save 
+ 
+ 
+ 1 -> mysql connector 
+ 2 -> spring data jdbc 
+ 
+ config -> application.properties 
+ 
+ 
+ query -> dao 
+ ------------------------------------------------------------------------------
+ create table students (
+ 	studentId int primary key auto_increment,
+ 	name varchar(30),
+ 	joiningDate varchar(30)
+ );
+ 
+ 
+ -------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
